@@ -1,0 +1,5 @@
+mode: set
+go-testing-bible/calculator/calculator.go:8.39,13.2 4 1
+go-testing-bible/calculator/calculator.go:16.33,17.12 1 0
+go-testing-bible/calculator/calculator.go:17.12,19.3 1 0
+go-testing-bible/calculator/calculator.go:19.8,21.3 1 0
