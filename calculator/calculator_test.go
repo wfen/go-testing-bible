@@ -1,8 +1,9 @@
 package calculator_test
 
 import (
-	"go-testing-bible/calculator"
 	"testing"
+
+	"github.com/wfen/go-testing-bible/calculator"
 )
 
 type TestCase struct {
