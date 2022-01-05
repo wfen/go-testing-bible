@@ -1,0 +1,15 @@
+==================
+WARNING: DATA RACE
+Write at 0x0001027395c0 by goroutine 7:
+  main.updateCounter()
+      /Users/ward/code/go-testing-bible/race/main.go:10 +0x4c
+
+Previous read at 0x0001027395c0 by main goroutine:
+  main.main()
+      /Users/ward/code/go-testing-bible/race/main.go:15 +0x48
+
+Goroutine 7 (running) created at:
+  main.main()
+      /Users/ward/code/go-testing-bible/race/main.go:14 +0x38
+==================
+Found 1 data race(s)
