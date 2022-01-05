@@ -1,3 +1,6 @@
+//go:build integration
+// +build integration
+
 package service_test
 
 import (
@@ -7,10 +10,12 @@ import (
 	"github.com/wfen/go-testing-bible/service/mocks"
 )
 
+// smsServiceMock
 //type smsServiceMock struct {
 //	mock.Mock
 //}
 
+// Our mocked smsService method
 //func (m *smsServiceMock) SendChargeNotification(value int) bool {
 //	fmt.Println("Mocked charge notification")
 //	args := m.Called(value)

@@ -1,3 +1,6 @@
+//go:build unit
+// +build unit
+
 package calculator_test
 
 import (
